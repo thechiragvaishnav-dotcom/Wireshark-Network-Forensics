@@ -15,6 +15,7 @@
        | Effect on Data |	$$\color{orange}{\text{Permanent.}}$$ Unmatched packets are discarded. |	$$\color{orange}{\text{Temporary.}}$$ Unmatched packets are just hidden. |
        | Example Syntax	| <code>host 192.168.1.5 and port 80</code> |	<code>ip.addr == 192.168.1.5 && tcp.port == 80</code> |
 
-  * **2. 
+  * **2. NICs (Network Interface Cards)**
 
+     ![](
 * $$\color{red}{\text{Page-2: Capturing packets}}$$ --> ![View]() 
