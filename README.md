@@ -2,7 +2,7 @@
 
 * $$\color{red}{\text{Page-1: Capture devices}}$$
   
-  ![Alt text for the image](images/Page-1: Capture devices.png)   
+  ![Alt text for the image](images/Page_1_Capture_devices.png)   
   * **1. The Capture Filter Bar** --> ![View](https://github.com/thechiragvaishnav-dotcom/Wireshark-Network-Forensics/issues/2#issue-4080409697)
      * you can start $$\color{orange}{\text{Filtering}}$$ before $$\color{orange}{\text{Capturing packets}}$$
      * | Feature | Capture Filters | Display Filters |
