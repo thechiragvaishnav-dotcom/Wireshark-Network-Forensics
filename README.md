@@ -2,10 +2,10 @@
 
 * $$\color{red}{\text{Page-1: Capture devices}}$$
   
-  ![Alt text for the image](images/Page_1_Capture_devices.png)   
-  * **1. The Capture Filter Bar**
+  ![Alt text for the image](images/image1.png)   
+  * **1. The Capture Filter Bar:**
  
-    ![](images/1_The_Capture_Filter_Bar.png)
+    ![](images/image2.png)
      * you can start $$\color{orange}{\text{Filtering}}$$ before $$\color{orange}{\text{Capturing packets}}$$
      * | Feature | Capture Filters | Display Filters |
        | :--- | :--- | :--- |
@@ -15,7 +15,16 @@
        | Effect on Data |	$$\color{orange}{\text{Permanent.}}$$ Unmatched packets are discarded. |	$$\color{orange}{\text{Temporary.}}$$ Unmatched packets are just hidden. |
        | Example Syntax	| <code>host 192.168.1.5 and port 80</code> |	<code>ip.addr == 192.168.1.5 && tcp.port == 80</code> |
 
-  * **2. NICs (Network Interface Cards)**
+  * **2. NICs (Network Interface Cards):**
+ 
+     ? Which Network Interface Cards are picking up traffic ?
+    
+     --> This Cards
+     ![](images/image3.png)
+     * you have to be Connected to the Networks with your Device, that you want to look at.
+     * Generally, you are going to look at your Ethernet or Wifi.
+     * Double click on, one of this to Open next page.
+       
+* $$\color{red}{\text{Page-2: Capturing packets}}$$
 
-     ![](
-* $$\color{red}{\text{Page-2: Capturing packets}}$$ --> ![View]() 
+  ![](images/image4.png)
