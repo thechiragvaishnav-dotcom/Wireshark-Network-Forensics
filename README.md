@@ -51,3 +51,8 @@
   * Go inside ==> Statistics / Conversations
     ![](images/image8.png)
 
+  * View of everything going on in wireshark. But, We actually use this screen to start $$\color{orange}{\text{filtering our packets.}}$$
+  * We have some tabs up here, Ethernet
+    ![](images/image9.png)
+
+  * 
