@@ -28,3 +28,11 @@
 * $$\color{red}{\text{Page-2: Capturing packets}}$$
 
   ![](images/image4.png)
+  * When we double-click, Immediately wireshark starts capturing packets & We can let it go & Capture packets for as long as we like.
+  * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
+  * & Then once you think you have enough data, Once enough time has gone by, You can click on $$\color{red}{\text{Red Square Button}}$$ up here at the top left.
+  ![](images/image5.jpg)
+  * After clicking on that  $$\color{red}{\text{Red Square Button}}$$ you can see at the very bottom of the screen here
+  ![](images/image6.jpg)
+  
+
