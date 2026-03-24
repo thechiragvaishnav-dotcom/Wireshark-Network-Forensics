@@ -39,11 +39,15 @@
 
   * **? What is a packet ?**
  
-  --> Each of the rows that you see on the screen here,\
-  ![](images/image7.png)
-  Is a $$\color{orange}{\text{single "Packet"}}$$ of information.
+    --> Each of the rows that you see on the screen here
+    ![](images/image7.png)
+    Is a $$\color{orange}{\text{single "Packet"}}$$ of information.
 
   * Whenever information is transferred over a network, It's transferred via packets.
   * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
   
+* $$\color{red}{\text{Page-3: Bird's eye view}}$$
+
+  * Go inside ==> Statistics / Conversations
+    ![](images/image8.png)
 
