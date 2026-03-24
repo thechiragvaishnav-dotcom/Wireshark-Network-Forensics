@@ -32,7 +32,8 @@
   * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
   * & Then once you think you have enough data, Once enough time has gone by, You can click on $$\color{red}{\text{Red Square Button}}$$ up here at the top left.
   ![](images/image5.jpg)
-  * After clicking on that  $$\color{red}{\text{Red Square Button}}$$ you can see at the very bottom of the screen here
+  * you can see at the very bottom of the screen here, It tells us that it captured  
   ![](images/image6.jpg)
+  * 
   
 
