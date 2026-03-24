@@ -32,8 +32,18 @@
   * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
   * & Then once you think you have enough data, Once enough time has gone by, You can click on $$\color{red}{\text{Red Square Button}}$$ up here at the top left.
   ![](images/image5.jpg)
-  * you can see at the very bottom of the screen here, It tells us that it captured  
-  ![](images/image6.jpg)
-  * 
+
+  * you can see at the very bottom of the screen here, It tells us that it captured 433 packets
+  ![](images/image6.png)
+  If we click the $$\color{red}{\text{Red Square Button,}}$$ it will stop capturing.
+
+  * **? What is a packet ?**
+ 
+  --> Each of the rows that you see on the screen here,\
+  ![](images/image7.png)
+  Is a $$\color{orange}{\text{single "Packet"}}$$ of information.
+
+  * Whenever information is transferred over a network, It's transferred via packets.
+  * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
   
 
