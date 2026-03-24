@@ -52,7 +52,10 @@
     ![](images/image8.png)
 
   * View of everything going on in wireshark. But, We actually use this screen to start $$\color{orange}{\text{filtering our packets.}}$$
-  * We have some tabs up here, Ethernet
+  * We have some tabs up here, <code>Ethernet . 1</code>, <code>IPv4 . 3</code>, <code>...</code> and so on, To go through the different protocols.
     ![](images/image9.png)
 
-  * 
+  * Any time you're doing network analysis, It's a good idea to know some of the IP addresses on your network.
+  * Settings / Network & internet / Wifi / "your Wifi name"
+  * Scroll down to <code>IPv4</code> address = IP address of your PC
+    ![](images/image10.png)
