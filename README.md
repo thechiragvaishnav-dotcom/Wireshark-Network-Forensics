@@ -59,6 +59,17 @@
   * Settings / Network & internet / Wifi / "your Wifi name"
   * Scroll down to <code>IPv4</code> address = IP address of your PC\
     ![](images/image10.png)\
-    & If there's a particular device that you're trying to troubleshoot, It's a good to know maybe the Mac address of that device. 
+    & If there's a particular device that you're trying to troubleshoot, It's a good to know maybe the Mac address of that device.
+  * So I have my IP address ( <code>10.24.12.20</code> ) & I want to find where it's in this <code>Address A</code>
+  * $$\color{red}{\text{right-click}}$$ on your IP address/Apply as Filter/Selected/A <--> Any
+    ![](images/image11.png)\
+    A is either sending or receiving from any IP address.
 
 * $$\color{red}{\text{Page-4: Right-click filtering}}$$
+
+  * So when I click on this\
+    ![](images/image11.png)
+    
+  * you'll notice that a filter is now automatically put here
+    ![](images/image12.jpg)\
+    in the top $$\color{\text{green line}}$$ & because we have click on <code>Port A/</code> the filter include the port( <code>&& tcp.port==</code> )
