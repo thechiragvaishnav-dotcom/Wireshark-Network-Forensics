@@ -88,3 +88,17 @@
     ![](images/image15.jpg)
 
   * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
+
+# What to look for ?
+
+  * Generally
+  * ex 1:$$\color{red}{\text{Device Not Connecting}}$$
+    a device not working on your network, & maybe you can use Wireshark to see if there's any communication at all.
+    
+  * ex 2:$$\color{red}{\text{Phishing Investigation}}$$
+    may be someone at your organization think they have been phished, So you want to reopen the link that they got in the sketchy email while capturing with Wireshark, obviously on a safe machine, to see what information can be gathered.
+     
+  * ex 3:$$\color{red}{\text{Increase Bandwidth}}$$
+    maybe just to see what devices are canstantly communicating on your network to see if you can improve your bandwidth.
+
+  * Wireshark can help with all of these situations, but the filters that you use & the packets that you focus on will be different.
