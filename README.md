@@ -52,12 +52,14 @@
     ![](images/image8.png)
 
   * We have some tabs up here, <code>Ethernet . 1</code>, <code>IPv4 . 3</code>, <code>...</code> and so on, To go through the different protocols.
+
     ![](images/image9.png)
     View of everything going on in wireshark. But, We actually use this screen to start $$\color{orange}{\text{filtering our packets.}}$$
 
   * Any time you're doing network analysis, It's a good idea to know some of the IP addresses on your network.
   * Settings / Network & internet / Wifi / "your Wifi name"
   * Scroll down to <code>IPv4</code> address = IP address of your PC\
+
     ![](images/image10.png)\
     & If there's a particular device that you're trying to troubleshoot, It's a good to know maybe the Mac address of that device.
   * So I have my IP address ( <code>10.24.12.20</code> ) & I want to find where it's in this <code>Address A</code>
@@ -70,6 +72,19 @@
   * So when I click on this\
     ![](images/image11.png)
     
-  * you'll notice that a filter is now automatically put here
-    ![](images/image12.jpg)\
-    in the top $$\color{\text{green line}}$$ & because we have click on <code>Port A/</code> the filter include the port( <code>&& tcp.port==</code> )
+  * you'll notice that a filter is now automatically put here in the top $$\color{green}{\text{green line}}$$
+    ![](images/image12.jpg)
+
+  * because we have click on <code>Port A(column)/46481</code> the filter($$\color{green}{\text{green line}}$$) include the port( <code>&& tcp.port==46481</code> )
+
+    ![](images/image13.jpg)
+
+  * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click/Apply as Filter</code>
+  
+    ![](images/image14.png)
+
+  * also on which column you <code>right-click/Apply as Filter/Sujest a filter as per column on which you click</code>
+  
+    ![](images/image15.jpg)
+
+  * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
