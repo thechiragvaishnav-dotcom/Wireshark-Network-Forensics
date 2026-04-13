@@ -54,7 +54,7 @@
   
     ![](images/image14.png)
 
-  * also on which column you <code>right-click/Apply as Filter/Sujest a filter as per column on which you click</code>
+  * also on which column you <code>right-click/Apply as Filter/Suggest a filter as per column on which you click</code>
   
     ![](images/image15.jpg)
 
