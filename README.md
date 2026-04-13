@@ -49,6 +49,17 @@
 
   * Whenever information is transferred over a network, It's transferred via packets.
   * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
+    
+  * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click/Apply as Filter</code>
+  
+    ![](images/image14.png)
+
+  * also on which column you <code>right-click/Apply as Filter/Sujest a filter as per column on which you click</code>
+  
+    ![](images/image15.jpg)
+
+  * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
+
   
 * $$\color{red}{\text{Page-3: Bird's eye view}}$$
 
@@ -70,29 +81,14 @@
   * So I have my IP address ( <code>10.24.12.20</code> ) & I want to find where it's in this <code>Address A</code>
   * $$\color{red}{\text{right-click}}$$ on your IP address/Apply as Filter/Selected/A <--> Any
     ![](images/image11.png)\
-    A is either sending or receiving from any IP address.
+    A is either sending or receiving from any IP address. So when I click on this
 
-* $$\color{red}{\text{Page-4: Right-click filtering}}$$
-
-  * So when I click on this\
-    ![](images/image11.png)
-    
   * you'll notice that a filter is now automatically put here in the top $$\color{green}{\text{green line}}$$
     ![](images/image12.jpg)
 
   * because we have click on <code>Port A(column)/46481</code> the filter($$\color{green}{\text{green line}}$$) include the port( <code>&& tcp.port==46481</code> )
 
     ![](images/image13.jpg)
-
-  * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click/Apply as Filter</code>
-  
-    ![](images/image14.png)
-
-  * also on which column you <code>right-click/Apply as Filter/Sujest a filter as per column on which you click</code>
-  
-    ![](images/image15.jpg)
-
-  * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
 
 # What to look for ?
 
