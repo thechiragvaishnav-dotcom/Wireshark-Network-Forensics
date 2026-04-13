@@ -1,8 +1,10 @@
 # Wireshark-Network-Forensics
 
 * $$\color{red}{\text{Page-1: Capture devices}}$$
+
+  * Open ==> <code>Wireshark</code>
   
-  ![Alt text for the image](images/image1.png)   
+    ![Alt text for the image](images/image1.png)   
   * **1. The Capture Filter Bar:**
  
     ![](images/image2.png)
@@ -26,8 +28,10 @@
      * Double click on, one of this to Open next page.
        
 * $$\color{red}{\text{Page-2: Capturing packets}}$$
-
-  ![](images/image4.png)
+  
+   * Double-click <code>NICs / Wifi</code>
+   
+     ![](images/image4.png)
   * When we double-click, Immediately wireshark starts capturing packets & We can let it go & Capture packets for as long as we like.
   * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
   * & Then once you think you have enough data, Once enough time has gone by, You can click on $$\color{red}{\text{Red Square Button}}$$ up here at the top left.
@@ -48,7 +52,8 @@
   
 * $$\color{red}{\text{Page-3: Bird's eye view}}$$
 
-  * Go inside ==> Statistics / Conversations
+  * Go inside ==> <code>Statistics / Conversations</code>
+  
     ![](images/image8.png)
 
   * We have some tabs up here, <code>Ethernet . 1</code>, <code>IPv4 . 3</code>, <code>...</code> and so on, To go through the different protocols.
