@@ -41,17 +41,16 @@
   * you can see at the very bottom of the screen here, It tells us that it captured 433 packets
     ![](images/image6.png)
   
-  * If we click the $$\color{red}{\text{Red Square Button,}}$$ it will stop capturing.
-    ![](images/image16.png)
-
+  * If we click the $$\color{red}{\text{Red Square Button,}}$$ it will stop capturing & Start Displaying.
+    ![](images/image16.jpg)
+    * no. of packets captured successfully = 100% - Dropped
+      
   * **? What is a packet ?**
  
-    --> Each of the rows that you see on the screen here
+    --> Each of the rows that you see on the screen here Is a $$\color{orange}{\text{single "Packet"}}$$ of information.
     ![](images/image7.png)
-    Is a $$\color{orange}{\text{single "Packet"}}$$ of information.
-
-  * Whenever information is transferred over a network, It's transferred via packets.
-  * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
+    * Whenever information is transferred over a network, It's transferred via packets.
+    * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
 
   * **Right-click Filtering**
 
