@@ -29,17 +29,20 @@
        
 * $$\color{red}{\text{Page-2: Capturing packets}}$$
   
-   * Double-click <code>NICs / Wifi</code>
-   
-     ![](images/image4.png)
-  * When we double-click, Immediately wireshark starts capturing packets & We can let it go & Capture packets for as long as we like.
-  * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
+  * Double-click <code>NICs / Wifi</code>
+     
+    ![](images/image4.png)
+    * When we double-click, Immediately wireshark starts capturing packets & We can let it go & Capture packets for as long as we like.
+    * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
+       
   * & Then once you think you have enough data, Once enough time has gone by, You can click on $$\color{red}{\text{Red Square Button}}$$ up here at the top left.
-  ![](images/image5.jpg)
+    ![](images/image5.jpg)
 
   * you can see at the very bottom of the screen here, It tells us that it captured 433 packets
-  ![](images/image6.png)
-  If we click the $$\color{red}{\text{Red Square Button,}}$$ it will stop capturing.
+    ![](images/image6.png)
+  
+  * If we click the $$\color{red}{\text{Red Square Button,}}$$ it will stop capturing.
+    ![](images/image16.png)
 
   * **? What is a packet ?**
  
@@ -49,16 +52,18 @@
 
   * Whenever information is transferred over a network, It's transferred via packets.
   * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
+
+  * **Right-click Filtering**
+
+    * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click / Apply as Filter</code>
     
-  * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click/Apply as Filter</code>
+      ![](images/image14.png)
   
-    ![](images/image14.png)
-
-  * also on which column you <code>right-click/Apply as Filter/Suggest a filter as per column on which you click</code>
+    * also on which column you <code>right-click / Apply as Filter / Suggest a filter as per column on which you click</code>
+    
+      ![](images/image15.jpg)
   
-    ![](images/image15.jpg)
-
-  * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
+    * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
 
   
 * $$\color{red}{\text{Page-3: Bird's eye view}}$$
