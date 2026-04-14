@@ -42,7 +42,7 @@
     ![](images/image6.png)
   
   * If we click the $$\color{red}{\text{Red Square Button,}}$$ it will stop capturing & Start Displaying.
-    ![](images/image16.jpg)
+    ![](images/image16.png)
     * no. of packets captured successfully = 100% - Dropped
       
   * **? What is a packet ?**
