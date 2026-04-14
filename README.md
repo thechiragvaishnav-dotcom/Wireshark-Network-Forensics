@@ -64,6 +64,13 @@
   
     * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
 
+  * **Filtering HTTP**
+
+    * In your filter just type <code>HTTP</code>
+
+      ![](images/image17.png)
+      * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
+      * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
   
 * $$\color{red}{\text{Page-3: Bird's eye view}}$$
 
