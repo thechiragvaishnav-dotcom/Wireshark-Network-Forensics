@@ -4,8 +4,15 @@
 
   * Open ==> <code>Wireshark</code>
   
-    ![Alt text for the image](images/image1.png)   
-  * **1. The Capture Filter Bar:**
+    ![Alt text for the image](images/image1.png)
+     
+  * **1. Saved Wireshark Files:**
+
+    ![](images/image18.png)
+    * After, successfully Capturing & Saving your file.
+    * Your file will display Here Above.
+    
+  * **2. The Capture Filter Bar:**
  
     ![](images/image2.png)
      * you can start $$\color{orange}{\text{Filtering}}$$ before $$\color{orange}{\text{Capturing packets}}$$
@@ -17,7 +24,7 @@
        | Effect on Data |	$$\color{orange}{\text{Permanent.}}$$ Unmatched packets are discarded. |	$$\color{orange}{\text{Temporary.}}$$ Unmatched packets are just hidden. |
        | Example Syntax	| <code>host 192.168.1.5 and port 80</code> |	<code>ip.addr == 192.168.1.5 && tcp.port == 80</code> |
 
-  * **2. NICs (Network Interface Cards):**
+  * **3. NICs (Network Interface Cards):**
      
      ![](images/image3.png)
      * ? Which Network Interface Cards are picking up traffic ?
