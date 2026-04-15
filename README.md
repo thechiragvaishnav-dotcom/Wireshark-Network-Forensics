@@ -80,11 +80,12 @@
     * How can we look at secure traffic ?
     * --> by typing <code>https</code> inside Filter bar
       ![](images/image23.png)
-      * $$\color{red}{\text{Wrong, red line}}$$ means incorrect filter.
+      * $$\color{red}{\text{red line}}$$ == $$\color{red}{\text{Wrong,}$$ means incorrect filter.
       * We actually have to use TCP, but a specific port & that's usually <code>port 80</code>.
       * it can also be port like <code>8000</code>, <code>8001</code> & <code>8002</code>.
       * generally <code>port 80</code> for HTTPs.
         ![](images/image24.png)
+        * $$\color{green}{\text{green line}}$$ == $$\color{green}{\text{Correct}$$ means correct filter.
         * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{red}{\text{aka encrypted traffic.}}$$
 
       * When we start to look at the $$\color{red}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
@@ -99,7 +100,7 @@
       * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
       * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
 
-  * **4. Viewing Packet Contents**
+  * **5. Viewing Packet Contents**
 
     ![](images/image20.png)
     * We have got Ethernet, TCP, IPv4, & HTTP
