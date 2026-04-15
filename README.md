@@ -73,7 +73,7 @@
     
       ![](images/image15.jpg)
   
-    * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
+    * $$\color{orange}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
 
   * **3. Filtering HTTPs (secure) traffic**
  
