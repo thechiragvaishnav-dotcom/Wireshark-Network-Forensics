@@ -11,7 +11,7 @@
     ![](images/image18.png)
     * After, successfully Capturing & Saving your file.
     * Your file will display Here Above.
-    * If you don't have any saved file there will be no Open section in your first page, Like below image.
+    * $$\color{red}{\text{If you don't have any saved file there will be no Open section in your first page, Like below image.}}$$
     
   * **2. The Capture Filter Bar:**
  
@@ -39,6 +39,7 @@
   
   * Double-click <code>NICs / Wifi</code>
      
+    ![](images/image19.png)
     ![](images/image4.png)
     * When we double-click, Immediately wireshark starts capturing packets & We can let it go & Capture packets for as long as we like.
     * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
