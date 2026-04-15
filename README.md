@@ -75,7 +75,23 @@
   
     * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
 
-  * **3. Filtering HTTP**
+  * **3. Filtering HTTPs (secure) traffic**
+ 
+    * How can we look at secure traffic ?
+    * --> by typing <code>https</code> inside Filter bar
+      ![](images/image23.png)
+      * $$\color{red}{\text{Wrong}}$$
+      * We actually have to use TCP, but a specific port & that's usually <code>port 80</code>.
+      * it can also be port like <code>8000</code>, <code>8001</code> & <code>8002</code>.
+      * generally <code>port 80</code> for HTTPs.
+        ![](images/image24.png)
+        * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{red}{\text{aka encrypted traffic}}$$
+
+      * When we start to look at the $$\color{red}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
+        ![](images/image25.png)
+        * Now, if you had the encryption key, you can actually upload that in here to wireshark & you can decrypt it.
+
+  * **4. Filtering HTTP**
 
     * In your filter just type <code>HTTP</code>
 
