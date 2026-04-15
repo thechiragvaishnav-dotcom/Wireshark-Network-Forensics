@@ -2,7 +2,7 @@
 
 * $$\color{red}{\text{Page-1: Capture devices}}$$
 
-  * Open ==> <code>Wireshark</code>
+  * Open **==>** <code>Wireshark</code>
   
     ![Alt text for the image](images/image1.png)
      
@@ -37,7 +37,7 @@
        
 * $$\color{red}{\text{Page-2: Capturing packets}}$$
   
-  * Double-click <code>NICs / Wifi</code>
+  * Double-click **==>** <code>NICs / Wifi</code>
      
     ![](images/image19.png)
 
@@ -91,24 +91,24 @@
   
 * $$\color{red}{\text{Page-3: Viewing Entire Stream}}$$
 
-  * right-click on <code> Single-packet / Follow / HTTP Stream</code>
+  * right-click on **==>** <code> Single-packet / Follow / HTTP Stream</code>
 
-  ![](images/image21.png)
-   * **Viewing insecure data**
-     1. if you were looking at a packet sent over an encrypted connection, you could'nt really be able to read anything.
-     2. We have this Entire Web page.
-     3. $$\color{red}{\text{This is the web page I went to while Wireshark is capturing.}}$$
-     4. It's here in wireshark now.
-     5. I could put this into a HTML compiler, & it would print out the Web page.
-   * **This is How Phishing works.**
-     1. Somebody sends you a link that maybe looks like your Bank link or a Social media link.
-     2. So you enter your username & password.
-     3. That person who's phishing you now can go in here to wireshark if they're Tapped into the network.
-     4. They can see your username & password that you entered right here in Wireshark.
+    ![](images/image21.png)
+    * **Viewing insecure data**
+      1. if you were looking at a packet sent over an encrypted connection, you could'nt really be able to read anything.
+      2. We have this Entire Web page.
+      3. $$\color{red}{\text{This is the web page I went to while Wireshark is capturing.}}$$
+      4. It's here in wireshark now.
+      5. I could put this into a HTML compiler, & it would print out the Web page.
+    * **This is How Phishing works.**
+      1. Somebody sends you a link that maybe looks like your Bank link or a Social media link.
+      2. So you enter your username & password.
+      3. That person who's phishing you now can go in here to wireshark if they're Tapped into the network.
+      4. They can see your username & password that you entered right here in Wireshark.
 
 * $$\color{red}{\text{Page-4: Bird's eye view}}$$
 
-  * Go inside ==> <code>Statistics / Conversations</code>
+  * Go inside **==>** <code>Statistics / Conversations</code>
   
     ![](images/image8.png)
 
