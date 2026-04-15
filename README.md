@@ -106,7 +106,7 @@
 
     ![](images/image20.png)
     * We have got Ethernet, TCP, IPv4, & HTTP
-    * $$\color{red}{\text{Wireshark kind of highlights, things that you might find intresting.}}$$
+    * $$\color{orange}{\text{Wireshark kind of highlights, things that you might find intresting.}}$$
   
 * $$\color{red}{\text{Page-3: Viewing Entire Stream}}$$
 
@@ -120,7 +120,7 @@
     * **Viewing insecure data**
       1. if you were looking at a packet sent over an encrypted connection, you could'nt really be able to read anything.
       2. We have this Entire Web page.
-      3. $$\color{red}{\text{This is the web page I went to while Wireshark is capturing.}}$$
+      3. $$\color{orange}{\text{This is the web page I went to while Wireshark is capturing.}}$$
       4. It's here in wireshark now.
       5. I could put this into a HTML compiler, & it would print out the Web page.
     * **This is How Phishing works.**
@@ -148,14 +148,14 @@
     * If there's a particular device that you're trying to troubleshoot, It's a good to know maybe the Mac address of that device.
     * So I have my IP address ( <code>10.24.12.20</code> ) & I want to find where it's in this <code>Address A</code>
     
-  * $$\color{red}{\text{right-click}}$$ on your IP address/Apply as Filter/Selected/A <--> Any
+  * $$\color{orange}{\text{right-click}}$$ on your IP address/Apply as Filter/Selected/A <--> Any
     ![](images/image11.png)\
     * A is either sending or receiving from any IP address. So when I click on this
 
-  * you'll notice that a filter is now automatically put here in the top $$\color{green}{\text{green line}}$$
+  * you'll notice that a filter is now automatically put here in the top $$\color{green}{\text{Green line}}$$
     ![](images/image12.jpg)
 
-  * because we have click on <code>Port A(column)/46481</code> the filter($$\color{green}{\text{green line}}$$) include the port( <code>&& tcp.port==46481</code> )
+  * because we have click on <code>Port A(column)/46481</code> the filter($$\color{green}{\text{Green line}}$$) include the port( <code>&& tcp.port==46481</code> )
 
     ![](images/image13.jpg)
 
@@ -166,13 +166,13 @@
       2. try to discover what is the purpose of the communication is or what device it's trying to communicate with.
       3. you might want to look at HTTP & not encrypted level HTTPs.
         
-  * ex 1: $$\color{red}{\text{Device Not Connecting}}$$
+  * ex 1: $$\color{orange}{\text{Device Not Connecting}}$$
     a device not working on your network, & maybe you can use Wireshark to see if there's any communication at all.
     
-  * ex 2: $$\color{red}{\text{Phishing Investigation}}$$
+  * ex 2: $$\color{orange}{\text{Phishing Investigation}}$$
     may be someone at your organization think they have been phished, So you want to reopen the link that they got in the sketchy email while capturing with Wireshark, obviously on a safe machine, to see what information can be gathered.
      
-  * ex 3: $$\color{red}{\text{Increase Bandwidth}}$$
+  * ex 3: $$\color{orange}{\text{Increase Bandwidth}}$$
     maybe just to see what devices are canstantly communicating on your network to see if you can improve your bandwidth.
 
   * Wireshark can help with all of these situations, but the filters that you use & the packets that you focus on will be different.
