@@ -85,7 +85,7 @@
 
     ![](images/image20.png)
     * We have got Ethernet, TCP, IPv4, & HTTP
-    * $$\color{red}{\text{Wireshark kind of highlights in blue things that you might find intresting.}}$$
+    * $$\color{red}{\text{Wireshark kind of highlights, things that you might find intresting.}}$$
   
 * $$\color{red}{\text{Page-3: Viewing Entire Stream}}$$
 
