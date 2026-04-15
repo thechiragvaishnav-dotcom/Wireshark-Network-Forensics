@@ -18,11 +18,11 @@
        | Example Syntax	| <code>host 192.168.1.5 and port 80</code> |	<code>ip.addr == 192.168.1.5 && tcp.port == 80</code> |
 
   * **2. NICs (Network Interface Cards):**
- 
-     ? Which Network Interface Cards are picking up traffic ?
-    
-     --> This Cards
+     
      ![](images/image3.png)
+     * ? Which Network Interface Cards are picking up traffic ?
+    
+     * --> The one with graphs
      * you have to be Connected to the Networks with your Device, that you want to look at.
      * Generally, you are going to look at your Ethernet or Wifi.
      * Double click on, one of this to Open next page.
