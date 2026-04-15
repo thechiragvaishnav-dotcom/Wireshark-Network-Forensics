@@ -68,7 +68,7 @@
 
     * In your filter just type <code>HTTP</code>
 
-      ![](images/image17.png)
+      ![](images/image17.jpg)
       * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
       * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
   
