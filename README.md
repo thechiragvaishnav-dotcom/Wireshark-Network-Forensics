@@ -54,14 +54,14 @@
     ![](images/image16.png)
     * no. of packets captured successfully = 100% - Dropped
       
-  * **? What is a packet ?**
+  * **1. What is a packet ?**
  
     --> Each of the rows that you see on the screen here Is a $$\color{orange}{\text{single "Packet"}}$$ of information.
     ![](images/image7.png)
     * Whenever information is transferred over a network, It's transferred via packets.
     * That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
 
-  * **Right-click Filtering**
+  * **2. Right-click Filtering**
 
     * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click / Apply as Filter</code>
     
@@ -73,15 +73,38 @@
   
     * $$\color{red}{\text{right-click(Single packet) = There's a lot of valuable options from there}}$$
 
-  * **Filtering HTTP**
+  * **3. Filtering HTTP**
 
     * In your filter just type <code>HTTP</code>
 
       ![](images/image17.jpg)
       * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
       * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
+
+  * **4. Viewing Packet Contents**
+
+    ![](images/image20.png)
+    * We have got Ethernet, TCP, IPv4, & HTTP
+    * $$\color{red}{\text{Wireshark kind of highlights in blue things that you might find intresting.}}$$
   
-* $$\color{red}{\text{Page-3: Bird's eye view}}$$
+* $$\color{red}{\text{Page-4: Viewing Entire Stream}}$$
+
+  * right-click on <code> Single-packet / Follow / HTTP Stream</code>
+
+  ![](images/image21.png)
+   * **Viewing insecure data**
+     1. if you were looking at a packet sent over an encrypted connection, you could'nt really be able to read anything.
+     2. We have this Entire Web page.
+     3. $$\color{red}{\text{This is the web page I went to while Wireshark is capturing.}}$$
+     4. It's here in wireshark now.
+     5. I could put this into a HTML compiler, & it would print out the Web page.
+   * **This is How Phishing works.**
+     1. Somebody sends you a link that maybe looks like your Bank link or a Social media link.
+     2. So you enter your username & password.
+     3. That person who's phishing you now can go in here to wireshark if they're Tapped into the network.
+     4. They can see your username & password that you entered right here in Wireshark.
+
+* $$\color{red}{\text{Page-4: Bird's eye view}}$$
 
   * Go inside ==> <code>Statistics / Conversations</code>
   
