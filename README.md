@@ -40,6 +40,8 @@
   * Double-click <code>NICs / Wifi</code>
      
     ![](images/image19.png)
+
+  * After clicking
     ![](images/image4.png)
     * When we double-click, Immediately wireshark starts capturing packets & We can let it go & Capture packets for as long as we like.
     * So, If you're troubleshooting a particular website or Something like that, You wonna to try & Acess that website now while it's capturing.
