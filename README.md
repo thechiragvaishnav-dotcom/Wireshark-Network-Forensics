@@ -90,7 +90,7 @@
         * $$\color{green}{\text{Green line}}$$ == $$\color{green}{\text{Correct,}}$$ means correct filter.
         * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{orange}{\text{aka encrypted traffic.}}$$
 
-      * When we start to look at the $$\color{red}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
+      * When we start to look at the $$\color{orange}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
         ![](images/image25.png)
         * Now, if you had the encryption key, you can actually upload that in here to wireshark & you can decrypt it.
 
