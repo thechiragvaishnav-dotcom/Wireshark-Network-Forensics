@@ -65,7 +65,7 @@
 
   * **2. Right-click Filtering**
 
-    * $$\color{red}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click / Apply as Filter</code>
+    * $$\color{orange}{\text{you can do that from anywhere in Wireshark}}$$ <code>right-click / Apply as Filter</code>
     
       ![](images/image14.png)
   
