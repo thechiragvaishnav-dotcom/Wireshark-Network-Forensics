@@ -87,7 +87,7 @@
       * generally <code>port 80</code> for HTTPs.
         
         ![](images/image24.png)
-        * $$\color{green}{\text{green line}}$$ == $$\color{green}{\text{Correct}}$$ means correct filter.
+        * $$\color{green}{\text{green line}}$$ == $$\color{green}{\text{Correct,}}$$ means correct filter.
         * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{red}{\text{aka encrypted traffic.}}$$
 
       * When we start to look at the $$\color{red}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
