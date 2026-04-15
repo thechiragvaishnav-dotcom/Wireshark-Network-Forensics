@@ -11,7 +11,7 @@
     ![](images/image18.png)
     * After, successfully Capturing & Saving your file.
     * Your file will display Here Above.
-    * If you don't have any saved file there will be no Open section in your first page
+    * If you don't have any saved file there will be no Open section in your first page, Like below image.
     
   * **2. The Capture Filter Bar:**
  
