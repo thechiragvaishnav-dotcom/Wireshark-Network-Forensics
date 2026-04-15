@@ -80,7 +80,7 @@
     * How can we look at secure traffic ?
     * --> by typing <code>https</code> inside Filter bar
       ![](images/image23.png)
-      * $$\color{red}{\text{Wrong}}$$
+      * $$\color{red}{\text{Wrong, red line}}$$ means incorrect filter.
       * We actually have to use TCP, but a specific port & that's usually <code>port 80</code>.
       * it can also be port like <code>8000</code>, <code>8001</code> & <code>8002</code>.
       * generally <code>port 80</code> for HTTPs.
