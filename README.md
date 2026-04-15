@@ -79,7 +79,7 @@
 
     * In your filter just type <code>HTTP</code>
 
-      ![](images/image17.jpg)
+      ![](images/image17.png)
       * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
       * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
 
@@ -94,6 +94,10 @@
   * right-click on **==>** <code> Single-packet / Follow / HTTP Stream</code>
 
     ![](images/image21.png)
+
+  * After clicking
+    ![](images/image22.png)
+     
     * **Viewing insecure data**
       1. if you were looking at a packet sent over an encrypted connection, you could'nt really be able to read anything.
       2. We have this Entire Web page.
