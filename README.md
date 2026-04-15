@@ -81,14 +81,14 @@
     * --> by typing <code>https</code> inside Filter bar
       
       ![](images/image23.png)
-      * $$\color{red}{\text{red line}}$$ == $$\color{red}{\text{Wrong,}}$$ means incorrect filter.
+      * $$\color{red}{\text{Red line}}$$ == $$\color{red}{\text{Wrong,}}$$ means incorrect filter.
       * We actually have to use TCP, but a specific port & that's usually <code>port 80</code>.
       * it can also be port like <code>8000</code>, <code>8001</code> & <code>8002</code>.
       * generally <code>port 80</code> for HTTPs.
         
         ![](images/image24.png)
-        * $$\color{green}{\text{green line}}$$ == $$\color{green}{\text{Correct,}}$$ means correct filter.
-        * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{red}{\text{aka encrypted traffic.}}$$
+        * $$\color{green}{\text{Green line}}$$ == $$\color{green}{\text{Correct,}}$$ means correct filter.
+        * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{orange}{\text{aka encrypted traffic.}}$$
 
       * When we start to look at the $$\color{red}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
         ![](images/image25.png)
