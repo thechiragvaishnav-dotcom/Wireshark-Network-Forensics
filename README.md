@@ -85,7 +85,7 @@
       * it can also be port like <code>8000</code>, <code>8001</code> & <code>8002</code>.
       * generally <code>port 80</code> for HTTPs.
         ![](images/image24.png)
-        * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{red}{\text{aka encrypted traffic}}$$
+        * this will show you all of the packets that where sent on TCP <code>port 80</code>, $$\color{red}{\text{aka encrypted traffic.}}$$
 
       * When we start to look at the $$\color{red}{\text{actual data within these packets,}}$$ we can't read it because it's encrypted.
         ![](images/image25.png)
