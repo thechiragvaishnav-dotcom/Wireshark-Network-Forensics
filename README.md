@@ -87,7 +87,7 @@
     * We have got Ethernet, TCP, IPv4, & HTTP
     * $$\color{red}{\text{Wireshark kind of highlights in blue things that you might find intresting.}}$$
   
-* $$\color{red}{\text{Page-4: Viewing Entire Stream}}$$
+* $$\color{red}{\text{Page-3: Viewing Entire Stream}}$$
 
   * right-click on <code> Single-packet / Follow / HTTP Stream</code>
 
