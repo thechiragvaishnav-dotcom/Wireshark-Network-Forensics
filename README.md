@@ -94,7 +94,19 @@
         ![](images/image25.png)
         * Now, if you had the encryption key, you can actually upload that in here to wireshark & you can decrypt it.
 
-  * **4. Filtering HTTP**
+  * **4. Buttons**
+ 
+    * So we did this filter <code>tcp.port==80</code> previously to show all the traffic on port 80.
+    * What we can do is instead of having to type that every time, we can go over here to the right side of the screen & click on the plus icon.      
+      ![](images/image26.png)
+      * Now, it allows us to create a filter Button so instead of typing <code>tcp.port==80</code> this, We can just click on this Button.
+      * $$\color{orange}{\text{Label:}}$$ HTTPs(you can name it anything)
+      * $$\color{orange}{\text{Filter:}}$$ tcp.port==80(automically, if some filter was already in filter bar)
+      * $$\color{orange}{\text{Comment:}}$$ keep it empty
+      * hit $$\color{orange}{\text{ok}}$$ right below plus icon
+      ![](images/image27.png)
+
+  * **5. Filtering HTTP**
 
     * In your filter just type <code>HTTP</code>
 
@@ -102,7 +114,7 @@
       * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
       * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
 
-  * **5. Viewing Packet Contents**
+  * **6. Viewing Packet Contents**
 
     ![](images/image20.png)
     * We have got Ethernet, TCP, IPv4, & HTTP
