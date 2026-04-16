@@ -105,8 +105,11 @@
       * $$\color{orange}{\text{Label:}}$$ HTTPs(you can name it anything)
       * $$\color{orange}{\text{Filter:}}$$ tcp.port==80(automically, if some filter was already in filter bar)
       * $$\color{orange}{\text{Comment:}}$$ keep it empty
-      * hit $$\color{orange}{\text{ok}}$$ right below plus icon
+        
+    * Hit $$\color{orange}{\text{ok}}$$ right below plus icon
       ![](images/image28.png)
+      * Now, we have this nice $$\color{orange}{\text{HTTPs button}}$$ near plus icon.
+      * click $$\color{orange}{\text{HTTPs button}}$$ == auto filled the filter( <code>tcp.port==80</code> ).
 
   * **5. Filtering HTTP**
 
