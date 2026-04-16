@@ -100,11 +100,13 @@
     * What we can do is instead of having to type that every time, we can go over here to the right side of the screen & click on the plus icon.      
       ![](images/image26.png)
       * Now, it allows us to create a filter Button so instead of typing <code>tcp.port==80</code> this, We can just click on this Button.
+   
+        ![](images/image27.png)
       * $$\color{orange}{\text{Label:}}$$ HTTPs(you can name it anything)
       * $$\color{orange}{\text{Filter:}}$$ tcp.port==80(automically, if some filter was already in filter bar)
       * $$\color{orange}{\text{Comment:}}$$ keep it empty
       * hit $$\color{orange}{\text{ok}}$$ right below plus icon
-      ![](images/image27.png)
+      ![](images/image28.png)
 
   * **5. Filtering HTTP**
 
