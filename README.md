@@ -110,6 +110,7 @@
       ![](images/image28.png)
       * Now, we have this nice $$\color{orange}{\text{HTTPs button}}$$ near plus icon.
       * click $$\color{orange}{\text{HTTPs button}}$$ == auto filled the filter( <code>tcp.port==80</code> ).
+        ![](images/image24.png)
 
   * **5. Filtering HTTP**
 
