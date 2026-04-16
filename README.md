@@ -177,6 +177,15 @@
 
     ![](images/image13.jpg)
 
+* $$\color{red}{\text{Page-5: Coloring rules}}$$
+
+  * Go inside **==>** <code>View / Coloring Rules...</code>.
+    
+    ![](images/image29.png)
+
+  * Here you can see & modify if you want to, all of the coloring rules.
+    ![](images/image30.png)
+
 # What to look for ?
 
   * Generally:
