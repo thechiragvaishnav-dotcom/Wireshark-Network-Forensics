@@ -214,7 +214,7 @@
 
   * One thing that is kind of newer feature of Wireshark that people like to see sometimes.
     ![](images/image35.png)
-    * click <code>ok</code> to apply. 
+    * click <code>ok</code> to apply the changes. 
 
   * You can see how this packet is structured, really good for $$\color{orange}{\text{Educational}}$$ purposes.
     ![](images/image36.png)
@@ -229,6 +229,14 @@
   * Go inside **==>** <code>Appearance / Columns</code>
 
     ![](images/image37.png)
+    * New line will appear
+    * Double-click on New column(inside Title) to rename it (Delta)
+    * Double-click on Custom(inside Type) & select (Delta time)
+   
+  * click <code>ok</code> to apply the changes.
+    ![](images/image38.png)
+    * you can also drag & drop to change it's position(in columns)
+      ![](images/image39.png)
 
 # What to look for ?
 
