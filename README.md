@@ -1,6 +1,6 @@
 # Wireshark-Network-Forensics
 
-* $$\color{red}{\text{Page-1: Capture devices}}$$
+* **$$\color{red}{\text{Page-1: Capture devices}}$$**
 
   * Open **==>** <code>Wireshark</code>
   
@@ -35,7 +35,7 @@
      * Generally, you are going to look at your Ethernet or Wifi.
      * Double click on, one of this to Open next page.
        
-* $$\color{red}{\text{Page-2: Capturing packets}}$$
+* **$$\color{red}{\text{Page-2: Capturing packets}}$$**
   
   * Double-click **==>** <code>NICs / Wifi</code>
      
@@ -142,7 +142,7 @@
     * We have got Ethernet, TCP, IPv4, & HTTP
     * $$\color{orange}{\text{Wireshark kind of highlights, things that you might find intresting.}}$$
   
-* $$\color{red}{\text{Page-3: Viewing Entire Stream}}$$
+* **$$\color{red}{\text{Page-3: Viewing Entire Stream}}$$**
 
   * right-click on **==>** <code> Single-packet / Follow / HTTP Stream</code>
 
@@ -163,7 +163,7 @@
       3. That person who's phishing you now can go in here to wireshark if they're Tapped into the network.
       4. They can see your username & password that you entered right here in Wireshark.
 
-* $$\color{red}{\text{Page-4: Bird's eye view}}$$
+* **$$\color{red}{\text{Page-4: Bird's eye view}}$$**
 
   * Go inside **==>** <code>Statistics / Conversations</code>
   
@@ -193,7 +193,7 @@
 
     ![](images/image13.jpg)
 
-* $$\color{red}{\text{Page-5: Coloring rules}}$$
+* **$$\color{red}{\text{Page-5: Coloring rules}}$$**
 
   * Go inside **==>** <code>View / Coloring Rules...</code>.
     
@@ -201,6 +201,16 @@
 
   * Here you can see & modify if you want to, all of the coloring rules.
     ![](images/image30.png)
+
+* **$$\color{red}{\text{Page-6: Packet diagram}}$$**
+
+  * Go inside **==>** <code>Wireshark / Preferences... / Appearance / Layout</code>
+
+    ![](images/image33.png)
+
+* **$$\color{red}{\text{Page-7: Delta time}}$$**
+
+  * Go inside **==>** <code>Wireshark / Preferences... / Appearance / Columns</code>
 
 # What to look for ?
 
