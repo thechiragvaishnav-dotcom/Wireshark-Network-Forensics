@@ -218,6 +218,7 @@
 
   * You can see how this packet is structured, really good for $$\color{orange}{\text{Educational}}$$ purposes.
     ![](images/image36.png)
+    * You can see the actual structure  of the packet, How many bytes it is, How the bytes are structured.
 
 * **$$\color{red}{\text{Page-7: Delta time}}$$**
 
