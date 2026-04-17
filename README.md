@@ -204,9 +204,16 @@
 
 * **$$\color{red}{\text{Page-6: Packet diagram}}$$**
 
-  * Go inside **==>** <code>Edit / Preferences... / Appearance / Layout</code>
+  * Go inside **==>** <code>Edit / Preferences...</code>
 
     ![](images/image33.png)
+
+  * Go inside **==>** <code>Appearance / Layout</code>
+  
+    ![](images/image34.png)
+
+  * one thing that is kind of newer feature of Wireshark that people like to see sometimes.
+    ![](images/image35.png)
 
 * **$$\color{red}{\text{Page-7: Delta time}}$$**
 
