@@ -204,13 +204,16 @@
 
 * **$$\color{red}{\text{Page-6: Packet diagram}}$$**
 
-  * Go inside **==>** <code>Wireshark / Preferences... / Appearance / Layout</code>
+  * Go inside **==>** <code>Edit / Preferences... / Appearance / Layout</code>
 
     ![](images/image33.png)
 
 * **$$\color{red}{\text{Page-7: Delta time}}$$**
 
-  * Go inside **==>** <code>Wireshark / Preferences... / Appearance / Columns</code>
+  * Go inside **==>** <code>Edit / Preferences... / Appearance / Columns</code>
+
+    ![](images/image33.png)
+
 
 # What to look for ?
 
