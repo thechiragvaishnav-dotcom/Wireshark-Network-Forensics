@@ -222,10 +222,13 @@
 
 * **$$\color{red}{\text{Page-7: Delta time}}$$**
 
-  * Go inside **==>** <code>Edit / Preferences... / Appearance / Columns</code>
+  * Go inside **==>** <code>Edit / Preferences...</code>
 
     ![](images/image33.png)
 
+  * Go inside **==>** <code>Appearance / Columns</code>
+
+    ![](images/image37.png)
 
 # What to look for ?
 
