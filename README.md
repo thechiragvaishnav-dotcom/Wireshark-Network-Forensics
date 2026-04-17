@@ -112,7 +112,18 @@
       * click $$\color{orange}{\text{HTTPs button}}$$ == auto filled the filter( <code>tcp.port==80</code> ).
         ![](images/image24.png)
 
-  * **5. Filtering HTTP**
+  * **5. Colors**
+    * Notice on the right side of the screen(near scroll bar), We can see the coloring as well.
+      ![](images/image31.png)
+      * So these are things that Wireshark is highlighting.
+      * It's an analysis toll.
+      * So it's captures the information, Which a lot of different tools can do.
+      * plus **+**
+      * Wireshark runs it's own analysis on that information & that's where these colored lines come through.
+      * This $$\color{red}{\text{Red}}$$ ones & Black ones, Wireshark is saying, $$\color{orange}{\text{"Hey, there might be something here."}}$$
+      * It's not like, $$\color{orange}{\text{"Hey, this is guaranteed}}$$ $$\color{red}{\text{Malware.}}$$
+
+  * **6. Filtering HTTP**
 
     * In your filter just type <code>HTTP</code>
 
@@ -120,7 +131,7 @@
       * You'll notice when it turns $$\color{green}{\text{green}}$$ , it means that it is an accepted equation filter.
       * If it's $$\color{red}{\text{red}}$$ , it's not going to work.
 
-  * **6. Viewing Packet Contents**
+  * **7. Viewing Packet Contents**
 
     ![](images/image20.png)
     * We have got Ethernet, TCP, IPv4, & HTTP
@@ -192,6 +203,7 @@
       1. Look & see if your computer, is having any long conversations with an unknown device.
       2. try to discover what is the purpose of the communication is or what device it's trying to communicate with.
       3. you might want to look at HTTP & not encrypted level HTTPs.
+      4. $$\color{red}{\text{Red}}$$ & Black Color packets, If you're looking for something on any network, these are good places to start.
         
   * ex 1: $$\color{orange}{\text{Device Not Connecting}}$$
     a device not working on your network, & maybe you can use Wireshark to see if there's any communication at all.
