@@ -212,8 +212,12 @@
   
     ![](images/image34.png)
 
-  * one thing that is kind of newer feature of Wireshark that people like to see sometimes.
+  * One thing that is kind of newer feature of Wireshark that people like to see sometimes.
     ![](images/image35.png)
+    * click <code>ok</code> to apply. 
+
+  * You can see how this packet is structured, really good for $$\color{orange}{\text{Educational}}$$ purposes.
+    ![](images/image36.png)
 
 * **$$\color{red}{\text{Page-7: Delta time}}$$**
 
