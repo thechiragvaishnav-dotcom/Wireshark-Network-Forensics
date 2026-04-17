@@ -210,7 +210,7 @@
 
   * Go inside **==>** <code>Appearance / Layout</code>
   
-    ![](images/image34.png)
+    ![](images/image.png)
 
   * one thing that is kind of newer feature of Wireshark that people like to see sometimes.
     ![](images/image35.png)
