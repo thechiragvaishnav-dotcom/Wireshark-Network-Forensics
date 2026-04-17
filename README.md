@@ -123,10 +123,10 @@
       * This $$\color{red}{\text{Red}}$$ ones & Black ones, Wireshark is saying, $$\color{orange}{\text{"Hey, there might be something here."}}$$
       * It's not like, $$\color{orange}{\text{"Hey, this is guaranteed}}$$ $$\color{red}{\text{Malware.}}$$
 
-    * So, we can see we've got maybe some $$\color{red{\text{spurious retransmissions.}}$$
+    * So, we can see we've got maybe some **$$\color{red}{\text{Spurious Retransmission.}}$$**
       ![](images/image32.png)
-      * An unnecessary TCP packet retransmission occuring when a $$\color{orange{\text{Sender}}$$ transmits a segment again, even though the $$\color{orange{\text{Receiver}}$$ has already acknowledge$$\color{orange{\text{(ACK)}}$$ the orginal data.
-      * This often happens at the beginning of a capture. You'll notice as the capture went on it kind of $$\color{red{\text{stop.}}$$
+      * An unnecessary TCP packet retransmission occuring when a $$\color{orange}{\text{Sender}}$$ transmits a segment again, even though the $$\color{orange}{\text{Receiver}}$$ has already acknowledge$$\color{orange}{\text{(ACK)}}$$ the orginal data.
+      * This often happens at the beginning of a capture. You'll notice as the capture went on it kind of $$\color{red}{\text{stop.}}$$
 
   * **6. Filtering HTTP**
 
