@@ -235,8 +235,12 @@
    
   * click <code>ok</code> to apply the changes.
     ![](images/image38.png)
-    * you can also drag & drop to change it's position(in columns)
-      ![](images/image39.png)
+  
+  * Click on this Black-grey rectangle if your Delta Column is not visible
+    ![](images/image39.png)
+
+  * you can also drag & drop to change it's position(in columns)
+    ![](images/image40.png)  
 
 # What to look for ?
 
