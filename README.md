@@ -260,3 +260,31 @@
     maybe just to see what devices are canstantly communicating on your network to see if you can improve your bandwidth.
 
   * Wireshark can help with all of these situations, but the filters that you use & the packets that you focus on will be different.
+
+# Important Filters
+  * This Section is more helpful for advanced users.
+
+* **$$\color{red}{\text{Filter-1: Hide protocols}}$$**
+  * Is a $$\color{orange}{\text{general filter that will hide}}$$ less commonly looked protocols.
+  * !(add all the filters that we don't want see)
+  * <code>!(arp or stp or lldp or cdp)</code>
+  * You can also add other protocols like UDP & TCP
+  * <code>!(arp or stp or lldp or cdp or udp or tcp)</code>
+
+* **$$\color{red}{\text{Filter-2: Show flagged packets}}$$**
+  1. You can see all of your TCP SYN flags, $$\color{orange}{\text{aka the first part of the three-way handshake.}}$$
+     * <code>tcp.flags.syn==1</code>
+     * How can we see just the stuff that Wireshark flagged ?
+  2. <code>tcp.analysis.flags</code>
+     * Now we're only seeing the $$\color{orange}{\text{flagged packets from Wireshark.}}$$
+     * Those who like just using for the first time & you're like worried that there's something going on in your network or something, you might want to start here.
+     * These are just kind of $$\color{orange}{\text{dropped packets and Retransmissions, fast Retransmissions, Spurious Retransmissions.}}$$
+  
+* **$$\color{red}{\text{Filter-3: Connection releases}}$$**
+  * To see if there are any specific packets that are from like an abortive release, $$\color{orange}{\text{aka}}$$ one of your devices said, $$\color{orange}{\text{"No, I am not talking to you go away"}}$$ which ia often a $$\color{red}{\text{Red Flag.}}$$
+  * <code>tcp.flags.reset==1</code>
+
+# Example & Exercises
+
+* [Web Link: ](https://malware-traffic-analysis.net/)
+* [GitHub Link: ](https://github.com/malware-traffic/indicators)
