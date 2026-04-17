@@ -286,5 +286,5 @@
 
 # Example & Exercises
 
-* [Web Link: ](https://malware-traffic-analysis.net/)
-* [GitHub Link: ](https://github.com/malware-traffic/indicators)
+* [Web Link](https://malware-traffic-analysis.net/)
+* [GitHub Link](https://github.com/malware-traffic/indicators)
