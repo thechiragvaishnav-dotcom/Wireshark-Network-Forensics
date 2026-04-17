@@ -125,7 +125,7 @@
 
     * So, we can see we've got maybe some **$$\color{red}{\text{Spurious Retransmission.}}$$**
       ![](images/image32.png)
-      * An unnecessary TCP packet retransmission occuring when a $$\color{orange}{\text{Sender}}$$ transmits a segment again, even though the $$\color{orange}{\text{Receiver}}$$ has already acknowledge$$\color{orange}{\text{(ACK)}}$$ the orginal data.
+      * An unnecessary TCP packet retransmission occuring when a $$\color{orange}{\text{Sender}}$$ transmits a segment again, even though the $$\color{orange}{\text{Receiver}}$$ has already acknowledge $$\color{orange}{\text{(ACK)}}$$ the orginal data.
       * This often happens at the beginning of a capture. You'll notice as the capture went on it kind of $$\color{red}{\text{stop.}}$$
 
   * **6. Filtering HTTP**
