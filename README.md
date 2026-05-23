@@ -6,14 +6,14 @@
    
      ![Alt text for the image](images/image1.png)
     
-   - 1. Saved Wireshark Files:
+  1. Saved Wireshark Files:
    
      ![](images/image18.png)
      - After, successfully Capturing & Saving your file.
      - Your file will display Here Above.
      - If you don't have any saved file there will be no Open section in your first page, Like below image.
    
-   - 2. The Capture Filter Bar:**
+  2. The Capture Filter Bar:**
 
      ![](images/image2.png)
      - you can start Filtering before Capturing packets
@@ -25,7 +25,7 @@
        | Effect on Data |	Permanent. Unmatched packets are discarded. |	Temporary. Unmatched packets are just hidden. |
        | Example Syntax	| <code>host 192.168.1.5 and port 80</code> |	<code>ip.addr == 192.168.1.5 && tcp.port == 80</code> |
       
-  - 3. NICs (Network Interface Cards):
+ 3. NICs (Network Interface Cards):
     
     ![](images/image3.png)
     - ? Which Network Interface Cards are picking up traffic ?
@@ -56,15 +56,15 @@
      ![](images/image16.png)
      - no. of packets captured successfully = 100% - Dropped
       
- - 1. What is a packet ?
-   
+  1. What is a packet ?
+     
    - --> Each of the rows that you see on the screen here Is a "Packet" of information.
      ![](images/image7.png)
      - Whenever information is transferred over a network, It's transferred via packets.
      - That means that every time you load a webpage, Every time you upload or download something, Packets of information are being transferred between you computer & A web server.
 
- - 2. Right-click Filtering
-   
+  2. Right-click Filtering
+     
    - you can do that from anywhere in Wireshark <code>right-click / Apply as Filter</code>
      
      ![](images/image14.png)
@@ -75,8 +75,8 @@
   
      - right-click(Single packet) == There's a lot of valuable options from there
 
- - 3. Filtering HTTPs (secure) traffic
- 
+  3. Filtering HTTPs (secure) traffic
+     
    - How can we look at secure traffic ?
    - --> by typing <code>https</code> inside Filter bar
       
@@ -94,8 +94,8 @@
        ![](images/image25.png)
        - Now, if you had the encryption key, you can actually upload that in here to wireshark & you can decrypt it.
 
- - 4. Buttons
-   
+  4. Buttons
+     
    - So we did this filter <code>tcp.port==80</code> previously to show all the traffic on port 80.
    - What we can do is instead of having to type that every time, we can go over here to the right side of the screen & click on the plus icon.      
      ![](images/image26.png)
@@ -112,7 +112,7 @@
        - click HTTPs button == auto filled the filter( <code>tcp.port==80</code> ).
          ![](images/image24.png)
 
- - 5. Colors
+  5. Colors
    - Notice on the right side of the screen(near scroll bar), We can see the coloring as well.
      ![](images/image31.png)
      - So these are things that Wireshark is highlighting.
@@ -128,15 +128,15 @@
      - An unnecessary TCP packet retransmission occuring when a Sender transmits a segment again, even though the Receiver has already acknowledge (ACK) the orginal data.
      - This often happens at the beginning of a capture. You'll notice as the capture went on it kind of stop.
 
- - 6. Filtering HTTP
-
+  6. Filtering HTTP
+     
    - In your filter just type <code>HTTP</code>
 
      ![](images/image17.png)
      - You'll notice when it turns green, it means that it is an accepted equation filter.
      - If it's red , it's not going to work.
 
- - 7. Viewing Packet Contents
+7. Viewing Packet Contents
    
    ![](images/image20.png)
    - We have got Ethernet, TCP, IPv4, & HTTP
