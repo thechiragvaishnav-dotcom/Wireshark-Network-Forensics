@@ -1,4 +1,4 @@
-# Wireshark-Network-Forensics
+# Wireshark Network Forensics
 
 ## Content
 - [Page-1: Capture devices](https://github.com/thechiragvaishnav-dotcom/Wireshark-Network-Forensics/blob/main/README.md#page-1-capture-devices)
